@@ -1,4 +1,4 @@
-FORM sshd
+FROM textar/sshd_ubuntu:14.04
 MAINTAINER textar
 ENV DEBIAN FRONTED noninteractive
 RUN apt-get update && \
